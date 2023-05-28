@@ -120,6 +120,23 @@
 // });
 // console.log(show);
 
-let a="kashif";
-let b=a.charAt(3);
-console.log(b);
+// let a="kashif";
+// let b=a.charAt(3);
+// console.log(b);
+
+// array pre define function ??
+
+let objec =[
+     { name:'kashif',city:'faisalabad' },
+     {name:'ali',city:'lahore'},
+     {name:'umar', city:'peshware'},
+     { name:'asad',city:'faisalabad' },
+
+];
+let result= objec.every(abc =>{
+    if (abc.city==='faisalabad') {
+        return true;
+    }
+    return false
+});
+console.log(result);
