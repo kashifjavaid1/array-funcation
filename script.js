@@ -121,5 +121,5 @@
 // console.log(show);
 
 let a="kashif";
-let b=a.charAt(2);
+let b=a.charAt(3);
 console.log(b);
