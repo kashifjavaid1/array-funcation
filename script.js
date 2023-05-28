@@ -95,5 +95,31 @@
 // console.log(stringvar.slice(4,10));
 // console.log(stringvar.trim());
 
-var stringvar="  Miankashifjavaid";
-console.log(stringvar.toLocaleLowerCase());
+// var stringvar="  Miankashifjavaid";
+// console.log(stringvar.toLocaleLowerCase());
+
+// write a js program suppose one varaibel to array [1,2,3,4,5,6,7,8,9,10] find length and index with out use for loop do while loop and while loop ?
+
+// var array=[1,2,3,4,5,6,7,8,9,10];
+// var result=array.forEach((Element,index)=>{
+//      console.log(index,"index number",Element);
+// });
+
+// write a js program to suppose one variable array [5,10,15,20,25,30] to change the array shape and show resule new array[1,2,3,4,5,6] without use for loop while loop and do while loop?
+
+// var array=[5,10,15,20,25,30];
+// var show=array.map((Element,index )=> {
+//     console.log("index",show);
+//     return 2*2
+// });
+// console.log(show);
+
+// const array = [5, 10, 15, 20, 25, 30];
+// const show = array.map(element => {
+//     return element/5
+// });
+// console.log(show);
+
+let a="kashif";
+let b=a.charAt(2);
+console.log(b);
