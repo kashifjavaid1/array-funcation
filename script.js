@@ -126,17 +126,47 @@
 
 // array pre define function ??
 
-let objec =[
-     { name:'kashif',city:'faisalabad' },
-     {name:'ali',city:'lahore'},
-     {name:'umar', city:'peshware'},
-     { name:'asad',city:'faisalabad' },
+// let objec =[
+//      { name:'kashif',city:'faisalabad' },
+//      {name:'ali',city:'lahore'},
+//      {name:'umar', city:'peshware'},
+//      { name:'asad',city:'faisalabad' },
 
-];
-let result= objec.every(abc =>{
-    if (abc.city==='faisalabad') {
-        return true;
+// ];
+// let result= objec.every(abc =>{
+//     if (abc.city==='faisalabad') {
+//         return true;
+//     }
+//     return false
+// });
+// console.log(result);
+
+// write a js program password 
+
+// var newpassword=passwords.map(password => {
+//  if (password.match == `^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$`) {
+//     return true;
+//  }
+//  return false;
+// });
+// console.log(newpassword);
+
+var passwords = ["test", "test@1214", "newPass2422@", "testPassword23", "examPle#242"];
+
+var newpasswords = passwords.map((element) => {
+    if (element.match(`((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,20})`)) {
+        return true
     }
     return false
-});
-console.log(result);
+})
+
+console.log("newpasswords", newpasswords);
+
+
+// var newpassword=passwords.map(element =>{
+//     if (element.match(`((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,20})`)) {
+//         return true
+//     }
+//     return false;
+// });
+// console.log(newpassword);
