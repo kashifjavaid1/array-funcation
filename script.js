@@ -53,8 +53,47 @@
 
 // console.log(datapush);
 
-var data=[1,5,6,8,3,9,8,5,2];
-var datashow=data.forEach((element,index )=> {
-    console.log(index,"index",element);
+// var data=[1,5,6,8,3,9,8,5,2];
+// var datashow=data.forEach((element,index )=> {
+//     console.log(index,"index",element);
     
-});
+// });
+
+// var data=[1,5,6,8,3,9,8,5,2];
+// var data1=data.map((element,index) =>{
+//     return element +2;
+     
+// });
+// console.log(data1);
+
+
+// writa a js program to convert numbers "1,2,3,4,5,6,7,8,9,10" to string into array and int or index find??
+//  first methode
+// var number="1,2,3,4,5,6,7,8,9,10";
+// var array=number.split(",");
+// var array1=array.forEach((element,index) => {
+//     console.log(index,"index",element);
+
+// });
+
+// writa a js program to convert numbers "1,2,3,4,5,6,7,8,9,10" to string into array show resutl ("2,4,6,8,10,12,14,16,18,20") ?
+
+// var data="1,2,3,4,5,6,7,8,9,10";
+// var convertarray= data.split(",");
+// var result=convertarray.map((element,index )=>{
+//      console.log(element);
+//      if (element % 2 == 0) {
+//                   return index + element
+//              }
+        
+// });
+// console.log(result);
+
+// lenght
+// var stringvar="  Miankashifjavaid";
+// console.log(stringvar.length);
+// console.log(stringvar.slice(4,10));
+// console.log(stringvar.trim());
+
+var stringvar="  Miankashifjavaid";
+console.log(stringvar.toLocaleLowerCase());
