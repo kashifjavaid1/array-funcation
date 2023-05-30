@@ -151,16 +151,16 @@
 // });
 // console.log(newpassword);
 
-var passwords = ["test", "test@1214", "newPass2422@", "testPassword23", "examPle#242"];
+// var passwords = ["test", "test@1214", "newPass2422@", "testPassword23", "examPle#242"];
 
-var newpasswords = passwords.map((element) => {
-    if (element.match(`((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,20})`)) {
-        return true
-    }
-    return false
-})
+// var newpasswords = passwords.map((element) => {
+//     if (element.match(`((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{6,20})`)) {
+//         return true
+//     }
+//     return false
+// })
 
-console.log("newpasswords", newpasswords);
+// console.log("newpasswords", newpasswords);
 
 
 // var newpassword=passwords.map(element =>{
@@ -170,3 +170,13 @@ console.log("newpasswords", newpasswords);
 //     return false;
 // });
 // console.log(newpassword);
+
+var arra=[1,2,3,4,5,6,7,8,9];
+var result=array1(element  =>{
+   for (let index = 0; index < arra.length; index++) {
+       const element = array[index];
+       console.log(element);
+       
+   }
+});
+array1()
