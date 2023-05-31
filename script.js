@@ -171,12 +171,37 @@
 // });
 // console.log(newpassword);
 
-var arra=[1,2,3,4,5,6,7,8,9];
-var result=array1(element  =>{
-   for (let index = 0; index < arra.length; index++) {
-       const element = array[index];
-       console.log(element);
+// var arra=[1,2,3,4,5,6,7,8,9];
+// var result=array1(element  =>{
+//    for (let index = 0; index < arra.length; index++) {
+//        const element = array[index];
+//        console.log(element);
        
-   }
+//    }
+// });
+// array1()
+
+// foreach loop
+
+// var data=[1,2,3,4,5,6,7,8,9,10];
+// var result=data.forEach((abc,index) =>{
+//     console.log("index",index);
+// console.log(abc);
+
+
+// });
+// map methode
+var arr=[1,2,3,4,5]
+// var result=arr.forEach(element =>{
+//     console.log(element);
+//     var show=arr.map(abc =>{
+//         return 5;
+//     });
+//     console.log(show);
+// });
+var show=arr.map(abc =>{
+    return 5;
 });
-array1()
+console.log(show);
+
+
