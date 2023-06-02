@@ -203,30 +203,40 @@ var arr=[1,2,3,4,5]
 //     return 5;
 // });
 // console.log(show);
-var marks = +prompt("Enter Your Marks?");
-var result = () => {
-    switch (true) {
-        case marks >= 90 && marks <= 100:
-            console.log("Your Grade is A++");
-            break;
-        case marks >= 80 && marks < 90:
-            console.log("Your Grade is A");
-            break;
-        case marks >= 70 && marks < 80:
-            console.log("Your Grade is B");
-            break;
-            case marks>=60 && marks<70:
-                console.log("Your Grade is C");
-                break;
-                case marks>=40 && marks<60:
-                    console.log("Your Grade is D");
-                    break;
-        default:
-            console.log("Try next time you are fail");
-            break;
-    }
-};
-result()
+// var marks = +prompt("Enter Your Marks?");
+// var result = () => {
+//     switch (true) {
+//         case marks >= 90 && marks <= 100:
+//             console.log("Your Grade is A++");
+//             break;
+//         case marks >= 80 && marks < 90:
+//             console.log("Your Grade is A");
+//             break;
+//         case marks >= 70 && marks < 80:
+//             console.log("Your Grade is B");
+//             break;
+//             case marks>=60 && marks<70:
+//                 console.log("Your Grade is C");
+//                 break;
+//                 case marks>=40 && marks<60:
+//                     console.log("Your Grade is D");
+//                     break;
+//         default:
+//             console.log("Try next time you are fail");
+//             break;
+//     }
+// };
+// result()
 
 
+// for (let index = 0; index <=100; index++) {
+//     const element = array[index];
+    
+// }
 
+// chapter 3 variable and datatype?
+
+var name1="kashifjavaid";
+console.log(typeof(name1),name1);
+// name1.typeof()
+// console.log(name1);
