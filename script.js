@@ -252,3 +252,16 @@ var arr=[1,2,3,4,5]
 // var num=123;
 // var result=data.concat(num);
 // console.log(result);
+
+// array fucntion
+
+// var arr=[1,2,3,4,5,6,7,8];
+// var result=arr.forEach((element,index) => {
+//   console.log(index,"index number",element);
+// ;
+// });
+
+// var data=[1,2,3,4,56,7];
+// data.forEach((abc,index) => {
+//     console.log(index,"index",abc);
+// });
