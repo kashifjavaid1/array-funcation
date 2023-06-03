@@ -283,9 +283,16 @@ var arr=[1,2,3,4,5]
 // console.log(functionresult);
 // filter methode
 
-var names=["kashif","javaid","kashif","ali"];
-var result=names.filter((element)=> {
-    console.log(element);
+// var names=["kashif","javaid","kashif","ali"];
+// var result=names.filter((element)=> {
+//     console.log(element);
 
     
+// });
+
+// sort
+var numberarray=[1,2,6,4,3,5,7,9,8];
+var resule=numberarray.sort((a,b)=> {
+ return a-b;
 });
+console.log(resule);
