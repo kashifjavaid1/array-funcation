@@ -267,9 +267,17 @@ var arr=[1,2,3,4,5]
 // });
 // every 
 
-var abc=[1,2,3,4,5,5,6,7];
-var arrro=abc.every( xyz => {
-     if (abc<=5) { 
-     }
+// var abc=[1,2,3,4,5,5,6,7];
+// var arrro=abc.every( xyz => {
+//      if (abc<=5) { 
+//      }
+// });
+// console.log(arrro);
+
+var names=["kashif","javaid","kashif","ali"];
+var functionresult=names.every(ab =>{
+  if (names=='kashif') {
+    
+  }
 });
-console.log(arrro);
+console.log(functionresult);
