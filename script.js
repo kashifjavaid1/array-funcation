@@ -274,10 +274,18 @@ var arr=[1,2,3,4,5]
 // });
 // console.log(arrro);
 
-var names=["kashif","javaid","kashif","ali"];
-var functionresult=names.every(ab =>{
-  if (names=='kashif') {
+// var names=["kashif","javaid","kashif","ali"];
+// var functionresult=names.every(ab =>{
+//   if (names=='kashif') {
     
-  }
+//   }
+// });
+// console.log(functionresult);
+// filter methode
+
+var names=["kashif","javaid","kashif","ali"];
+var result=names.filter((element)=> {
+    console.log(element);
+
+    
 });
-console.log(functionresult);
