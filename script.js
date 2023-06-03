@@ -236,7 +236,19 @@ var arr=[1,2,3,4,5]
 
 // chapter 3 variable and datatype?
 
-var name1="kashifjavaid";
-console.log(typeof(name1),name1);
+// var name1="kashifjavaid";
+// console.log(typeof(name1),name1);
 // name1.typeof()
 // console.log(name1);
+// var number1=123456;
+// console.log(typeof (number1));
+// console.log(number1);
+
+// var num="12345";
+// var a=console.log(parseInt(num));
+// console.log(typeof(a));
+
+// var data="kashif";
+// var num=123;
+// var result=data.concat(num);
+// console.log(result);
