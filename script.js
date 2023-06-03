@@ -265,3 +265,11 @@ var arr=[1,2,3,4,5]
 // data.forEach((abc,index) => {
 //     console.log(index,"index",abc);
 // });
+// every 
+
+var abc=[1,2,3,4,5,5,6,7];
+var arrro=abc.every( xyz => {
+     if (abc<=5) { 
+     }
+});
+console.log(arrro);
