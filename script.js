@@ -291,8 +291,33 @@ var arr=[1,2,3,4,5]
 // });
 
 // sort
-var numberarray=[1,2,6,4,3,5,7,9,8];
-var resule=numberarray.sort((a,b)=> {
- return a-b;
-});
-console.log(resule);
+// var numberarray=[1,2,6,4,3,5,7,9,8];
+// var resule=numberarray.sort((a,b)=> {
+//  return a-b;
+// });
+// console.log(resule);
+
+
+// var input=[{name:'naveed',dod:'10-11-1997',email:"nameed@tecloste.com"},
+// {name:'ali',dod:'10-11-1996',email:"ali@tecloste.com"},
+// {name:'zain',dod:'10-11-1995',email:"zain@tecloste.com"}];
+
+var input = [
+    { name: 'naveed', dod: '10-11-1997', email: 'nameed@tecloste.com' },
+    { name: 'ali', dod: '10-11-1996', email: 'ali@tecloste.com' },
+    { name: 'zain', dod: '10-11-1995', email: 'zain@tecloste.com' }
+  ];
+  
+  input.forEach(function(obj) {
+    var birthDate = new Date(obj.dod); // Convert the date of birth to a Date object
+    var ageInMilliseconds = Date.now() - birthDate.getTime(); // Calculate the age in milliseconds
+    var ageDate = new Date(ageInMilliseconds); // Convert the age to a Date object
+  
+    // Extract the year from the age Date object
+    var age = Math.abs(ageDate.getUTCFullYear() - 1970);
+  
+    obj.age = age; // Add the age property to the object
+  });
+  
+  console.log(input);
+  
