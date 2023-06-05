@@ -337,11 +337,25 @@ var arr=[1,2,3,4,5]
   
     // write a js program to print a "try again" unitl the user correct number find?
      
-    var num1=+prompt("User enter any number");
-         var num2=7;
-         if (num1==num2) {
-            console.log("user enter a correct number");
-         } else {
-            console.log("try again");
-         }
+    // var num1=+prompt("User enter any number");
+    //      var num2=7;
+    //      if (num1==num2) {
+    //         console.log("user enter a correct number");
+    //      } else {
+    //         console.log("try again");
+    //      }
          
+    // write a js function to find mean of 5 number?
+     function mean() {
+        
+        var mean=+prompt("Enter First number ");
+        var mean1=+prompt("Enter Second Number");
+        var mean2=+prompt("Enter Third Number");
+        var mean3=+prompt("Enter Forth  Number");
+        var mean4=+prompt("Enter Fifth Number");
+        var resule=mean+mean1+mean2+mean3+mean4;
+        console.log(resule/5);
+
+     }
+     mean()
+
