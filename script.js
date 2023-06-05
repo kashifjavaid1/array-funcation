@@ -323,15 +323,25 @@ var arr=[1,2,3,4,5]
 
 // write a js program to  print a message "you can drive a car" or "you cannot drive a car" based age is grater then 18?
   
-    let age=prompt("Your enter a age?");
-    Number.parseInt(age)
-    if (age<=10) {
-        console.log("You are kide ");
-    }
-    else if(age>10 && age<18){
-      console.log("you cannot a drive ");
-    }
-    else{
-        console.log("you can drive a car");
-    }
+    // let age=prompt("Your enter a age?");
+    // Number.parseInt(age)
+    // if (age<=10) {
+    //     console.log("You are kide ");
+    // }
+    // else if(age>10 && age<18){
+    //   console.log("you cannot a drive ");
+    // }
+    // else{
+    //     console.log("you can drive a car");
+    // }
   
+    // write a js program to print a "try again" unitl the user correct number find?
+     
+    var num1=+prompt("User enter any number");
+         var num2=7;
+         if (num1==num2) {
+            console.log("user enter a correct number");
+         } else {
+            console.log("try again");
+         }
+         
