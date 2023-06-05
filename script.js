@@ -346,16 +346,26 @@ var arr=[1,2,3,4,5]
     //      }
          
     // write a js function to find mean of 5 number?
-     function mean() {
+    //  function mean() {
         
-        var mean=+prompt("Enter First number ");
-        var mean1=+prompt("Enter Second Number");
-        var mean2=+prompt("Enter Third Number");
-        var mean3=+prompt("Enter Forth  Number");
-        var mean4=+prompt("Enter Fifth Number");
-        var resule=mean+mean1+mean2+mean3+mean4;
-        console.log(resule/5);
+    //     var mean=+prompt("Enter First number ");
+    //     var mean1=+prompt("Enter Second Number");
+    //     var mean2=+prompt("Enter Third Number");
+    //     var mean3=+prompt("Enter Forth  Number");
+    //     var mean4=+prompt("Enter Fifth Number");
+    //     var resule=mean+mean1+mean2+mean3+mean4;
+    //     console.log(resule/5);
 
-     }
-     mean()
+    //  }
+    //  mean()
 
+    // string handling
+    // var str="kashif"
+    // var resule=str.toUpperCase()
+    //  console.log(resule);
+
+    // write a js program  extract amount out of this string 
+    //  "please give Rs 1000"
+     var amount="please give Rs 1000";
+     var resule=amount.slice(15,19);
+     console.log(resule);
