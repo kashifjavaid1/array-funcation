@@ -366,6 +366,15 @@ var arr=[1,2,3,4,5]
 
     // write a js program  extract amount out of this string 
     //  "please give Rs 1000"
-     var amount="please give Rs 1000";
-     var resule=amount.slice(15,19);
-     console.log(resule);
+    //  var amount="please give Rs 1000";
+    //  var resule=amount.slice(15,19);
+    //  console.log(resule);
+
+    // array 
+
+     var arr1=[1,2,3,4,5,6,7];
+    //  arr1.pop();
+    // arr1.push(8)
+    // arr1.shift()
+   delete arr1 [0];
+   console.log(arr1);
