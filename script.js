@@ -302,22 +302,36 @@ var arr=[1,2,3,4,5]
 // {name:'ali',dod:'10-11-1996',email:"ali@tecloste.com"},
 // {name:'zain',dod:'10-11-1995',email:"zain@tecloste.com"}];
 
-var input = [
-    { name: 'naveed', dod: '10-11-1997', email: 'nameed@tecloste.com' },
-    { name: 'ali', dod: '10-11-1996', email: 'ali@tecloste.com' },
-    { name: 'zain', dod: '10-11-1995', email: 'zain@tecloste.com' }
-  ];
+// var input = [
+//     { name: 'naveed', dod: '10-11-1997', email: 'nameed@tecloste.com' },
+//     { name: 'ali', dod: '10-11-1996', email: 'ali@tecloste.com' },
+//     { name: 'zain', dod: '10-11-1995', email: 'zain@tecloste.com' }
+//   ];
   
-  input.forEach(function(obj) {
-    var birthDate = new Date(obj.dod); // Convert the date of birth to a Date object
-    var ageInMilliseconds = Date.now() - birthDate.getTime(); // Calculate the age in milliseconds
-    var ageDate = new Date(ageInMilliseconds); // Convert the age to a Date object
+//   input.forEach(function(obj) {
+//     var birthDate = new Date(obj.dod); // Convert the date of birth to a Date object
+//     var ageInMilliseconds = Date.now() - birthDate.getTime(); // Calculate the age in milliseconds
+//     var ageDate = new Date(ageInMilliseconds); // Convert the age to a Date object
   
-    // Extract the year from the age Date object
-    var age = Math.abs(ageDate.getUTCFullYear() - 1970);
+//     // Extract the year from the age Date object
+//     var age = Math.abs(ageDate.getUTCFullYear() - 1970);
   
-    obj.age = age; // Add the age property to the object
-  });
+//     obj.age = age; // Add the age property to the object
+//   });
   
-  console.log(input);
+//   console.log(input);
+
+// write a js program to  print a message "you can drive a car" or "you cannot drive a car" based age is grater then 18?
+  
+    let age=prompt("Your enter a age?");
+    Number.parseInt(age)
+    if (age<=10) {
+        console.log("You are kide ");
+    }
+    else if(age>10 && age<18){
+      console.log("you cannot a drive ");
+    }
+    else{
+        console.log("you can drive a car");
+    }
   
