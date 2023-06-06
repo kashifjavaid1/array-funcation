@@ -376,5 +376,5 @@ var arr=[1,2,3,4,5]
     //  arr1.pop();
     // arr1.push(8)
     // arr1.shift()
-   delete arr1 [0];
-   console.log(arr1);
+//    delete arr1 [0];
+//    console.log(arr1);
