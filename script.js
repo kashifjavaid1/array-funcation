@@ -372,9 +372,13 @@ var arr=[1,2,3,4,5]
 
     // array 
 
-     var arr1=[1,2,3,4,5,6,7];
+    //  var arr1=[1,2,3,4,5,6,7];
     //  arr1.pop();
     // arr1.push(8)
     // arr1.shift()
 //    delete arr1 [0];
 //    console.log(arr1);
+   
+//   array methode
+  var num=[1,2,3,4,5,6,7,8];
+  console.log(num);
