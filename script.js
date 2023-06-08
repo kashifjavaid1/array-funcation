@@ -380,5 +380,10 @@ var arr=[1,2,3,4,5]
 //    console.log(arr1);
    
 //   array methode
-  var num=[1,2,3,4,5,6,7,8];
-  console.log(num);
+  // var num=[1,2,3,4,5,6,7,8];
+  // console.log(num);
+
+    var array=[1,2,3,4,5,6];
+    var inpu=+prompt("enter a number");
+    array.push(inpu);
+    console.log(array);
