@@ -25,11 +25,11 @@
 
 
 // var newNumbers = numbers.map((element,index)=>{
-         
+
 //          console.log(element);
-    
+
 //          return 2 * 2
-    
+
 //     })
 
 // var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -56,13 +56,13 @@
 // var data=[1,5,6,8,3,9,8,5,2];
 // var datashow=data.forEach((element,index )=> {
 //     console.log(index,"index",element);
-    
+
 // });
 
 // var data=[1,5,6,8,3,9,8,5,2];
 // var data1=data.map((element,index) =>{
 //     return element +2;
-     
+
 // });
 // console.log(data1);
 
@@ -85,7 +85,7 @@
 //      if (element % 2 == 0) {
 //                   return index + element
 //              }
-        
+
 // });
 // console.log(result);
 
@@ -176,7 +176,7 @@
 //    for (let index = 0; index < arra.length; index++) {
 //        const element = array[index];
 //        console.log(element);
-       
+
 //    }
 // });
 // array1()
@@ -191,7 +191,7 @@
 
 // });
 // map methode
-var arr=[1,2,3,4,5]
+var arr = [1, 2, 3, 4, 5]
 // var result=arr.forEach(element =>{
 //     console.log(element);
 //     var show=arr.map(abc =>{
@@ -231,7 +231,7 @@ var arr=[1,2,3,4,5]
 
 // for (let index = 0; index <=100; index++) {
 //     const element = array[index];
-    
+
 // }
 
 // chapter 3 variable and datatype?
@@ -277,7 +277,7 @@ var arr=[1,2,3,4,5]
 // var names=["kashif","javaid","kashif","ali"];
 // var functionresult=names.every(ab =>{
 //   if (names=='kashif') {
-    
+
 //   }
 // });
 // console.log(functionresult);
@@ -287,7 +287,7 @@ var arr=[1,2,3,4,5]
 // var result=names.filter((element)=> {
 //     console.log(element);
 
-    
+
 // });
 
 // sort
@@ -307,83 +307,123 @@ var arr=[1,2,3,4,5]
 //     { name: 'ali', dod: '10-11-1996', email: 'ali@tecloste.com' },
 //     { name: 'zain', dod: '10-11-1995', email: 'zain@tecloste.com' }
 //   ];
-  
+
 //   input.forEach(function(obj) {
 //     var birthDate = new Date(obj.dod); // Convert the date of birth to a Date object
 //     var ageInMilliseconds = Date.now() - birthDate.getTime(); // Calculate the age in milliseconds
 //     var ageDate = new Date(ageInMilliseconds); // Convert the age to a Date object
-  
+
 //     // Extract the year from the age Date object
 //     var age = Math.abs(ageDate.getUTCFullYear() - 1970);
-  
+
 //     obj.age = age; // Add the age property to the object
 //   });
-  
+
 //   console.log(input);
 
 // write a js program to  print a message "you can drive a car" or "you cannot drive a car" based age is grater then 18?
-  
-    // let age=prompt("Your enter a age?");
-    // Number.parseInt(age)
-    // if (age<=10) {
-    //     console.log("You are kide ");
-    // }
-    // else if(age>10 && age<18){
-    //   console.log("you cannot a drive ");
-    // }
-    // else{
-    //     console.log("you can drive a car");
-    // }
-  
-    // write a js program to print a "try again" unitl the user correct number find?
-     
-    // var num1=+prompt("User enter any number");
-    //      var num2=7;
-    //      if (num1==num2) {
-    //         console.log("user enter a correct number");
-    //      } else {
-    //         console.log("try again");
-    //      }
-         
-    // write a js function to find mean of 5 number?
-    //  function mean() {
-        
-    //     var mean=+prompt("Enter First number ");
-    //     var mean1=+prompt("Enter Second Number");
-    //     var mean2=+prompt("Enter Third Number");
-    //     var mean3=+prompt("Enter Forth  Number");
-    //     var mean4=+prompt("Enter Fifth Number");
-    //     var resule=mean+mean1+mean2+mean3+mean4;
-    //     console.log(resule/5);
 
-    //  }
-    //  mean()
+// let age=prompt("Your enter a age?");
+// Number.parseInt(age)
+// if (age<=10) {
+//     console.log("You are kide ");
+// }
+// else if(age>10 && age<18){
+//   console.log("you cannot a drive ");
+// }
+// else{
+//     console.log("you can drive a car");
+// }
 
-    // string handling
-    // var str="kashif"
-    // var resule=str.toUpperCase()
-    //  console.log(resule);
+// write a js program to print a "try again" unitl the user correct number find?
 
-    // write a js program  extract amount out of this string 
-    //  "please give Rs 1000"
-    //  var amount="please give Rs 1000";
-    //  var resule=amount.slice(15,19);
-    //  console.log(resule);
+// var num1=+prompt("User enter any number");
+//      var num2=7;
+//      if (num1==num2) {
+//         console.log("user enter a correct number");
+//      } else {
+//         console.log("try again");
+//      }
 
-    // array 
+// write a js function to find mean of 5 number?
+//  function mean() {
 
-    //  var arr1=[1,2,3,4,5,6,7];
-    //  arr1.pop();
-    // arr1.push(8)
-    // arr1.shift()
+//     var mean=+prompt("Enter First number ");
+//     var mean1=+prompt("Enter Second Number");
+//     var mean2=+prompt("Enter Third Number");
+//     var mean3=+prompt("Enter Forth  Number");
+//     var mean4=+prompt("Enter Fifth Number");
+//     var resule=mean+mean1+mean2+mean3+mean4;
+//     console.log(resule/5);
+
+//  }
+//  mean()
+
+// string handling
+// var str="kashif"
+// var resule=str.toUpperCase()
+//  console.log(resule);
+
+// write a js program  extract amount out of this string 
+//  "please give Rs 1000"
+//  var amount="please give Rs 1000";
+//  var resule=amount.slice(15,19);
+//  console.log(resule);
+
+// array 
+
+//  var arr1=[1,2,3,4,5,6,7];
+//  arr1.pop();
+// arr1.push(8)
+// arr1.shift()
 //    delete arr1 [0];
 //    console.log(arr1);
-   
-//   array methode
-  // var num=[1,2,3,4,5,6,7,8];
-  // console.log(num);
 
-    var array=[1,2,3,4,5,6];
-    var inpu=+prompt("enter a number");
-    array.push(inpu);
-    console.log(array);
+//   array methode
+// var num=[1,2,3,4,5,6,7,8];
+// console.log(num);
+
+//  chapter No5
+
+//  write a js program  to crate a array of number and take input  from the user  to add the number?
+// var array=[1,2,3,4,5,6];
+// var inpu=+prompt("enter a number");
+// array.push(inpu);
+// console.log(array);
+
+// end
+
+//  write a js program  to crate a array of number and take input  from the user  to add the number?
+//  var array=[2,4,6,8,10];
+//  var inputData=prompt("user enter number");
+//  Number.parseInt(inputData);
+//  array.push(inputData);
+//  console.log(array);
+//  var len=array.forEach( (Element,index)=>{
+//         console.log(Element,"index number",index);
+//  });
+
+// program no 2
+//  var array=[2,4,6,8,10];
+//  do {
+//   var user=+prompt("enter a number");
+//   array.push(user)
+//  } while (user!=0);
+//  console.log(array);
+
+// var array=[1,2,3,4,5,6,7,8,9,10];
+// var inputData=+prompt("enter a number");
+// array.push(inputData);
+// if (inputData!=0) {
+//   console.log(array);
+// }
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+do {
+  inputData = +prompt("Enter a number");
+
+  array.push(inputData);
+
+} while (inputData !== 0);
+
+console.log(array);
