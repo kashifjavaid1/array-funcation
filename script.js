@@ -417,13 +417,36 @@ var arr = [1, 2, 3, 4, 5]
 // if (inputData!=0) {
 //   console.log(array);
 // }
-var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-do {
-  inputData = +prompt("Enter a number");
+// do {
+//  var inputData = +prompt("Enter a number");
 
-  array.push(inputData);
+//   array.push(inputData);
 
-} while (inputData !== 0);
+// } while (inputData !== 0);
 
-console.log(array);
+// console.log(array);
+
+// prorgram no 3
+
+   var array=[10,5,10,15,20,25,30,35,40,20,50,55,60];
+   var newarray=array.filter( Element=>{
+         if (Element%10==0) {
+         return true;
+         }
+   });
+   newarray.sort((a,b) => a-b);
+   console.log(newarray);
+
+//   var array = [10, 5, 10, 15, 20, 25, 30, 35, 40, 20, 50, 55, 60];
+// var newArray = array.filter(Element => {
+//   if (Element % 10 === 0) {
+//     return true;
+//   }
+// });
+// newArray.sort((a, b) =>{ 
+//   return a - b;
+// });
+
+// console.log(newArray);
