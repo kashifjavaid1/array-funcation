@@ -468,3 +468,36 @@
 //       console.log("Negative a number");
 //  }
 
+// 2   Create a function in JavaScript that takes a day of the week as input (e.g., "Monday", "Tuesday", etc.) and displays a message indicating whether it is a weekday or a weekend day using if statements.
+ 
+   function weekend() {
+      let day=+prompt("Enter a Day number");
+      if (day==0) {
+            console.log(day," is not a day");
+      }
+      else if (day==1) {
+            console.log(day,"Day is Monday");
+      }
+      else if (day==2) {
+            console.log(day,"day is Tuesday ");
+      }
+      else if (day==3) {
+          console.log(day,"day is Wednesday");
+      }
+      else if (day==4) {
+           console.log(day,"day is Thuresday");  
+      }
+      else if (day==5) {
+            console.log(day,"day is Friday");
+      }
+      else if (day==6) {
+            console.log(day,"day is Saturday");
+      }
+     else if (day==7) {
+        console.log(day,"day is Sunday");
+     }
+     else{
+      console.log("Week day's in 7 Not other days ");
+     }
+   }
+   weekend();
