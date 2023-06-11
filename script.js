@@ -469,7 +469,7 @@
 //  }
 
 // 2   Create a function in JavaScript that takes a day of the week as input (e.g., "Monday", "Tuesday", etc.) and displays a message indicating whether it is a weekday or a weekend day using if statements.
- 
+
 //    function weekend() {
 //       var day=prompt("Enter a Day number");
 //       if (day.toLowerCase==='monday') {
@@ -497,31 +497,81 @@
 //    weekend();
 
 // question no 3  Write a JavaScript program that takes a number between 1 and 7 as input and displays the corresponding day of the week using a switch statement.
-let day=+prompt("Enter a day")
-switch (true) {
-      case day==1:
-            console.log("monday");
-            break;
-        case day==2:
-            console.log("tuesday");
-            break;
-            case day==3:
-            console.log("wednesday");
-            break;
-            case day==4:
-            console.log("thuresday");
-            break;
-            case day==5:
-            console.log("friday");
-            break;
-            case day==6:
-            console.log("saturday");
-            break;
-            case day==7:
-                  console.log("sunday");
+// let day=+prompt("Enter a day")
+// switch (true) {
+//       case day==1:
+//             console.log("monday");
+//             break;
+//         case day==2:
+//             console.log("tuesday");
+//             break;
+//             case day==3:
+//             console.log("wednesday");
+//             break;
+//             case day==4:
+//             console.log("thuresday");
+//             break;
+//             case day==5:
+//             console.log("friday");
+//             break;
+//             case day==6:
+//             console.log("saturday");
+//             break;
+//             case day==7:
+//                   console.log("sunday");
+//                   break;
+
+//       default:
+//             console.log("");
+//             break;
+// }
+
+// question 4 Write a JavaScript program that takes a month number (1-12) as input and displays the number of days in that month using switch statements.
+
+function months(params) {
+      let numberofmonth = +prompt("Enter a month number");
+      switch (true) {
+            case numberofmonth == 1:
+                  console.log("January");
                   break;
-      
-      default:
-            console.log("");
-            break;
+            case numberofmonth == 2:
+                  console.log("February");
+                  break;
+            case numberofmonth == 3:
+                  console.log("March");
+                  break;
+            case numberofmonth == 4:
+                  console.log("April");
+                  break;
+            case numberofmonth == 5:
+                  console.log("May");
+                  break;
+            case numberofmonth == 6:
+                  console.log("June");
+                  break;
+            case numberofmonth == 7:
+                  console.log("July");
+                  break;
+            case numberofmonth == 8:
+                  console.log("August");
+                  break;
+            case numberofmonth == 9:
+                  console.log("September");
+                  break;
+
+            case numberofmonth == 10:
+                  console.log("October");
+                  break;
+            case numberofmonth == 11:
+                  console.log("November");
+                  break;
+            case numberofmonth == 12:
+                  console.log("December");
+                  break;
+
+            default:
+                  console.log("Not a other month");
+                  break;
+      }
 }
+months();
