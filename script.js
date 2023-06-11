@@ -191,7 +191,7 @@
 
 // });
 // map methode
-var arr = [1, 2, 3, 4, 5]
+// var arr = [1, 2, 3, 4, 5]
 // var result=arr.forEach(element =>{
 //     console.log(element);
 //     var show=arr.map(abc =>{
@@ -430,14 +430,14 @@ var arr = [1, 2, 3, 4, 5]
 
 // prorgram no 3
 
-   var array=[10,5,10,15,20,25,30,35,40,20,50,55,60];
-   var newarray=array.filter( Element=>{
-         if (Element%10==0) {
-         return true;
-         }
-   });
-   newarray.sort((a,b) => a-b);
-   console.log(newarray);
+//    var array=[10,5,10,15,20,25,30,35,40,20,50,55,60];
+//    var newarray=array.filter( Element=>{
+//          if (Element%10==0) {
+//          return true;
+//          }
+//    });
+//    newarray.sort((a,b) => a-b);
+//    console.log(newarray);
 
 //   var array = [10, 5, 10, 15, 20, 25, 30, 35, 40, 20, 50, 55, 60];
 // var newArray = array.filter(Element => {
@@ -451,5 +451,20 @@ var arr = [1, 2, 3, 4, 5]
 
 // console.log(newArray);
 
-var element=Math.PI;
-console.log(element);
+// var element=Math.PI;
+// console.log(element);
+
+// 1 Write a JavaScript program that takes a number as input and checks whether it is positive, negative, or zero using if-else statements.
+
+//  let inputnumber=prompt("Enter a Number");
+//  Number.parseInt(inputnumber)
+//  if (inputnumber>=1) {
+//       console.log("positive a number");
+//  }
+//  else if (inputnumber==0) {
+//       console.log("zero a number");
+//  }
+//  else{
+//       console.log("Negative a number");
+//  }
+
