@@ -470,34 +470,58 @@
 
 // 2   Create a function in JavaScript that takes a day of the week as input (e.g., "Monday", "Tuesday", etc.) and displays a message indicating whether it is a weekday or a weekend day using if statements.
  
-   function weekend() {
-      let day=+prompt("Enter a Day number");
-      if (day==0) {
-            console.log(day," is not a day");
-      }
-      else if (day==1) {
-            console.log(day,"Day is Monday");
-      }
-      else if (day==2) {
-            console.log(day,"day is Tuesday ");
-      }
-      else if (day==3) {
-          console.log(day,"day is Wednesday");
-      }
-      else if (day==4) {
-           console.log(day,"day is Thuresday");  
-      }
-      else if (day==5) {
-            console.log(day,"day is Friday");
-      }
-      else if (day==6) {
-            console.log(day,"day is Saturday");
-      }
-     else if (day==7) {
-        console.log(day,"day is Sunday");
-     }
-     else{
-      console.log("Week day's in 7 Not other days ");
-     }
-   }
-   weekend();
+//    function weekend() {
+//       var day=prompt("Enter a Day number");
+//       if (day.toLowerCase==='monday') {
+//             console.log("Day is Monday");
+//       }
+//       else if (day.toLowerCase==='tuesday') {
+//             console.log("day is Tuesday ");
+//       }
+//       else if (day.toLowerCase==='wednesday') {
+//           console.log("day is Wednesday");
+//       }
+//       else if (day.toLowerCase==="thuresday") {
+//            console.log("day is Thuresday");  
+//       }
+//       else if (day.toLowerCase==='friday') {
+//             console.log("day is Friday");
+//       }
+//       else if (day.toLowerCase==='saturday') {
+//             console.log("day is Saturday");
+//       }
+//      else if (day.toLowerCase==='sunday') {
+//         console.log("day is Sunday");
+//      }
+//    }
+//    weekend();
+
+// question no 3  Write a JavaScript program that takes a number between 1 and 7 as input and displays the corresponding day of the week using a switch statement.
+let day=+prompt("Enter a day")
+switch (true) {
+      case day==1:
+            console.log("monday");
+            break;
+        case day==2:
+            console.log("tuesday");
+            break;
+            case day==3:
+            console.log("wednesday");
+            break;
+            case day==4:
+            console.log("thuresday");
+            break;
+            case day==5:
+            console.log("friday");
+            break;
+            case day==6:
+            console.log("saturday");
+            break;
+            case day==7:
+                  console.log("sunday");
+                  break;
+      
+      default:
+            console.log("");
+            break;
+}
