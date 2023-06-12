@@ -591,9 +591,34 @@
 // }
 
 // table crerate;
-var table=+prompt("Enter a table");
-for (let index = 1; index <=10; index++) {
-      console.log(table, `*` ,index, `=`,table*index);
+// var table=+prompt("Enter a table");
+// for (let index = 1; index <=10; index++) {
+//       console.log(table, `*` ,index, `=`,table*index);
       
-}
+// }
+
+// Write a JavaScript program to calculate the sum of all numbers from 1 to a given number. Implement this using a loop (either for loop or while loop).
+
+// var obj=[10,15,20,25,30]
+// var sum=0;
+//  for (let index = 0; index < obj.length; index++) {
+//       const element = obj[index];
+//      sum +=element
+      
+//  }
+//  console.log("sum",sum);
+
+// var sum = 0;
+// var element = 5;
+
+// sum += element;
+// console.log(sum);
+
+var arr=[2,4,6,8,10,12,14,16,18,20];
+var sum=0;
+var resule=arr.forEach(i =>{
+      sum+=i;
+      
+})
+console.log(sum);
 
