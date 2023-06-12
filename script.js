@@ -586,6 +586,14 @@
 
 // var number = +prompt("Enter a number");
 
-for (let i = 0; i < 10; i++) {
-  console.log(i);
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
+
+// table crerate;
+var table=+prompt("Enter a table");
+for (let index = 1; index <=10; index++) {
+      console.log(table, `*` ,index, `=`,table*index);
+      
 }
+
