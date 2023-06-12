@@ -528,50 +528,64 @@
 
 // question 4 Write a JavaScript program that takes a month number (1-12) as input and displays the number of days in that month using switch statements.
 
-function months(params) {
-      let numberofmonth = +prompt("Enter a month number");
-      switch (true) {
-            case numberofmonth == 1:
-                  console.log("January");
-                  break;
-            case numberofmonth == 2:
-                  console.log("February");
-                  break;
-            case numberofmonth == 3:
-                  console.log("March");
-                  break;
-            case numberofmonth == 4:
-                  console.log("April");
-                  break;
-            case numberofmonth == 5:
-                  console.log("May");
-                  break;
-            case numberofmonth == 6:
-                  console.log("June");
-                  break;
-            case numberofmonth == 7:
-                  console.log("July");
-                  break;
-            case numberofmonth == 8:
-                  console.log("August");
-                  break;
-            case numberofmonth == 9:
-                  console.log("September");
-                  break;
+// function months(params) {
+//       let numberofmonth = +prompt("Enter a month number");
+//       switch (true) {
+//             case numberofmonth == 1:
+//                   console.log("January");
+//                   break;
+//             case numberofmonth == 2:
+//                   console.log("February");
+//                   break;
+//             case numberofmonth == 3:
+//                   console.log("March");
+//                   break;
+//             case numberofmonth == 4:
+//                   console.log("April");
+//                   break;
+//             case numberofmonth == 5:
+//                   console.log("May");
+//                   break;
+//             case numberofmonth == 6:
+//                   console.log("June");
+//                   break;
+//             case numberofmonth == 7:
+//                   console.log("July");
+//                   break;
+//             case numberofmonth == 8:
+//                   console.log("August");
+//                   break;
+//             case numberofmonth == 9:
+//                   console.log("September");
+//                   break;
 
-            case numberofmonth == 10:
-                  console.log("October");
-                  break;
-            case numberofmonth == 11:
-                  console.log("November");
-                  break;
-            case numberofmonth == 12:
-                  console.log("December");
-                  break;
+//             case numberofmonth == 10:
+//                   console.log("October");
+//                   break;
+//             case numberofmonth == 11:
+//                   console.log("November");
+//                   break;
+//             case numberofmonth == 12:
+//                   console.log("December");
+//                   break;
 
-            default:
-                  console.log("Not a other month");
-                  break;
-      }
+//             default:
+//                   console.log("Not a other month");
+//                   break;
+//       }
+// }
+// months();
+
+//    for loop 
+     
+//              var result=(index => {
+//                   var number=+prompt("enter a number");
+      
+//      });
+//    result()
+
+// var number = +prompt("Enter a number");
+
+for (let i = 0; i < 10; i++) {
+  console.log(i);
 }
-months();
