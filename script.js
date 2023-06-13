@@ -614,11 +614,15 @@
 // sum += element;
 // console.log(sum);
 
-var arr=[2,4,6,8,10,12,14,16,18,20];
-var sum=0;
-var resule=arr.forEach(i =>{
-      sum+=i;
+// var arr=[2,4,6,8,10,12,14,16,18,20];
+// var sum=0;
+// var resule=arr.forEach(i =>{
+//       sum+=i;
       
-})
-console.log(sum);
+// })
+// console.log(sum);
 
+      var array=["kashif","javaid","ali"];
+      array.push("abdullah");
+      array.length
+      console.log(array);
