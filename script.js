@@ -622,7 +622,14 @@
 // })
 // console.log(sum);
 
+      // var array=["kashif","javaid","ali"];
+      // array.push("abdullah");
+      // array.length
+      // console.log(array);
+      
       var array=["kashif","javaid","ali"];
-      array.push("abdullah");
-      array.length
-      console.log(array);
+      // array.push("abdullah");
+      // array.pop()
+      array.unshift("Muhammad")
+
+console.log(array);
