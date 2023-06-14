@@ -627,9 +627,11 @@
       // array.length
       // console.log(array);
       
-      var array=["kashif","javaid","ali"];
+      // var array=["kashif","javaid","ali"];
       // array.push("abdullah");
       // array.pop()
-      array.unshift("Muhammad")
+//       array.unshift("Muhammad")
 
-console.log(array);
+// console.log(array);
+  
+      var array1=[1,2,3,4,5,6]
