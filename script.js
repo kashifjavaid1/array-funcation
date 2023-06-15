@@ -634,4 +634,25 @@
 
 // console.log(array);
   
-      var array1=[1,2,3,4,5,6]
+//       var array1=["kashif","javaid"];
+      
+// console.log(typeof (array1));
+
+// write a js program find the all value (1,2,3,4,5,6,7,8,9,10) with use foreach loop?
+  
+//    var arr=[1,2,3,4,5,6,7,8,9,10];
+//    var resule=arr.forEach(a =>{
+//      console.log(a);
+//    });
+
+
+data="1,2,3,4,5,6,7,8,9,10";
+var convertarray= data.split(",");
+var result=convertarray.map((element,index )=>{
+//      console.log(element);
+     if (element % 2 == 0) {
+                  return index + element
+             }
+
+});
+console.log(result);
