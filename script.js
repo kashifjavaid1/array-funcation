@@ -646,13 +646,24 @@
 //    });
 
 
-data="1,2,3,4,5,6,7,8,9,10";
-var convertarray= data.split(",");
-var result=convertarray.map((element,index )=>{
-//      console.log(element);
-     if (element % 2 == 0) {
-                  return index + element
-             }
+// data="1,2,3,4,5,6,7,8,9,10";
+// var convertarray= data.split(",");
+// var result=convertarray.map((element,index )=>{
+// //      console.log(element);
+//      if (element % 2 == 0) {
+//                   return index + element
+//              }
 
+// });
+// console.log(result);
+
+// write a js program to sum off array[2,4,5,6,7,8,9,10];
+var arra=[2,4,5,6,7,8,9,10];
+sum=0;
+var resule=arra.forEach((element) => {
+      
+   sum-=element;
+  
+      
 });
-console.log(result);
+ console.log(sum);
