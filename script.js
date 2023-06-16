@@ -658,12 +658,38 @@
 // console.log(result);
 
 // write a js program to sum off array[2,4,5,6,7,8,9,10];
-var arra=[2,4,5,6,7,8,9,10];
-sum=0;
-var resule=arra.forEach((element) => {
+// var arra=[2,4,5,6,7,8,9,10];
+// sum=0;
+// var resule=arra.forEach((element) => {
       
-   sum-=element;
+//    sum-=element;
   
       
-});
- console.log(sum);
+// });
+//  console.log(sum);
+// var a=1;
+// while (a<=10) {
+//   console.log(a,"pakistan");
+//   a++;
+// }
+
+//    var result=function abc(a,b) {
+//       if (a==b) {
+//           console.log("equal values"); 
+          
+//       }
+//       else{
+//             console.log("Not equal value");
+           
+      
+//    }
+// }
+//    var resuleshow=result(2,5)
+
+//    var result=Number.MAX_VALUE;
+//    console.log(result);
+var arr = [2, 4, 5, 6, 7];
+var arrToString = arr.toString();
+
+console.log(arrToString);
+
