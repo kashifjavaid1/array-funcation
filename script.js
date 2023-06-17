@@ -703,5 +703,4 @@
  
   var a="kashif";
   var b="muhammad";
-  var result=b.concat(a);
-  console.log(result);
+
