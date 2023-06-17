@@ -688,8 +688,20 @@
 
 //    var result=Number.MAX_VALUE;
 //    console.log(result);
-var arr = [2, 4, 5, 6, 7];
-var arrToString = arr.toString();
+// var arr = [2, 4, 5, 6, 7];
+// var arrToString = arr.toString();
 
-console.log(arrToString);
+// console.log(arrToString);
 
+// string handling
+   
+//  var abc="a-z"
+//  var a=abc.charAt(6);
+//  var b=abc.charCodeAt(a-z);
+//  console.log(b);
+// //  console.log(a);
+ 
+  var a="kashif";
+  var b="muhammad";
+  var result=b.concat(a);
+  console.log(result);
