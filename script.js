@@ -63,8 +63,9 @@
 // var num=1;
 // var result=num++;
 // console.log(num);
-var array=[100]
-array.length
-console.log(array);
-
+// var array=[100]
+// array.length
+// console.log(array);
+ 
+    
 
