@@ -69,3 +69,15 @@
  
     
 
+// function submit() {
+//    var kms=document.getElementById("data").value;
+//    const factor=0.621371;
+//    const miles=factor*kms;
+//    document.getElementById("result").innerText=`${miles} miles`
+// }
+
+function sub() {
+   var celsius=document.getElementById("num").value;
+   var resu= (celsius) * 9/5+ 32;
+   document.getElementById("result").innerText=`${celsius}celsius==${resu} Fahrenheit `
+}
