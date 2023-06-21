@@ -76,8 +76,8 @@
 //    document.getElementById("result").innerText=`${miles} miles`
 // }
 
-function sub() {
-   var celsius=document.getElementById("num").value;
-   var resu= (celsius) * 9/5+ 32;
-   document.getElementById("result").innerText=`${celsius}celsius==${resu} Fahrenheit `
-}
+// function sub() {
+//    var celsius=document.getElementById("num").value;
+//    var resu= (celsius) * 9/5+ 32;
+//    document.getElementById("result").innerText=`${celsius}celsius==${resu} Fahrenheit `
+// }
