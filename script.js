@@ -81,3 +81,10 @@
 //    var resu= (celsius) * 9/5+ 32;
 //    document.getElementById("result").innerText=`${celsius}celsius==${resu} Fahrenheit `
 // }
+
+   // randam number
+
+  
+   Math.random(num);
+   
+   console.log(num);
