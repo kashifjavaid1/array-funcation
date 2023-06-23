@@ -85,6 +85,6 @@
    // randam number
 
   
-   Math.random(num);
+   // Math.random(num);
    
-   console.log(num);
+   // console.log(num);
