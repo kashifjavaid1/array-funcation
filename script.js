@@ -88,3 +88,5 @@
    // Math.random(num);
    
    // console.log(num);
+   // var x=Math.random(x);
+   // console.log(x);
