@@ -95,3 +95,5 @@
 //    console.log(abc);
 // var abc=[];
 // console.log(typeof(abc));
+// var array=[1,2,3,4,5]
+// console.log(typeof(array));
