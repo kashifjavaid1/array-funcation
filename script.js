@@ -90,6 +90,6 @@
    // console.log(num);
    // var x=Math.random(x);
    // console.log(x);
-var abc=6;
-   Math.sqrt(abc);
-   console.log(abc);
+// var abc=6;
+//    Math.sqrt(abc);
+//    console.log(abc);
