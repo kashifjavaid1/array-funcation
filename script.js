@@ -93,3 +93,5 @@
 // var abc=6;
 //    Math.sqrt(abc);
 //    console.log(abc);
+// var abc=[];
+// console.log(typeof(abc));
