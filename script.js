@@ -98,3 +98,4 @@
 // var array=[1,2,3,4,5]
 // console.log(typeof(array));
 // var a=123;
+var a=123;
