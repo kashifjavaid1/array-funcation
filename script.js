@@ -99,3 +99,8 @@
 // console.log(typeof(array));
 // var a=123;
 // var a=123;
+
+var array=[2,4,6,8,10,12,14,16,18,20];
+var result=array.forEach((Element) =>{
+     console.log(Element);
+})
