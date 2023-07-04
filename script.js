@@ -100,7 +100,14 @@
 // var a=123;
 // var a=123;
 
-var array=[2,4,6,8,10,12,14,16,18,20];
-var result=array.forEach((Element) =>{
-     console.log(Element);
-})
+// var array=[2,4,6,8,10,12,14,16,18,20];
+// var result=array.forEach((Element,index) =>{
+//      console.log(index,"index",Element);
+// })
+// console.log(result);
+
+let array=[2,4,6,8,10];
+let result=array.filter((element,index)=>{
+return element
+});
+console.log(result);
