@@ -106,8 +106,8 @@
 // })
 // console.log(result);
 
-let array=[2,4,6,8,10];
-let result=array.filter((element,index)=>{
-return element
-});
-console.log(result);
+// let array=[2,4,6,8,10];
+// let result=array.filter((element,index)=>{
+// return element
+// });
+// console.log(result);
